@@ -1,0 +1,63 @@
+Global
+.DS_Store
+.env
+.env.local
+.env..local
+.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log*
+
+/server/.env
+
+Node (server and client)
+node_modules/
+build/
+dist/
+coverage/
+.pnpm
+.pnp.*
+.cache/
+.vscode/
+
+React (client)
+client/node_modules/
+client/build/
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+Python (python-ai)
+python-ai/pycache/
+python-ai/*.pyc
+python-ai/.venv/
+python-ai/env/
+python-ai/venv/
+python-ai/.mypy_cache/
+python-ai/.pytest_cache/
+python-ai/.DS_Store
+
+MongoDB dump or data
+*.mongodb
+*.bson
+*.json
+
+OS
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+Optional: Logs and temp
+*.pid
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
